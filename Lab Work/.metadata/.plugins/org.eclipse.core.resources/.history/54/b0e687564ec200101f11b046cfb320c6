@@ -1,0 +1,29 @@
+/**
+ * File: PAssign.java
+ * Class: CSCI 1301
+ * Author: Tyrone Darby
+ * Created on: 11/15/25
+ * Last modified: 11/15/25
+ * Description: a Java program that test a Movie class.
+ */
+
+public class PAssign10 {
+
+	public static void main(String[] args) {
+		Movie movie1 = new Movie("Black Panther", 2018, "Action and Adventure", 90);
+		Movie movie2 = new Movie("Bohemian Rhapsody", 2018, "Drama", 60);
+		Movie movie3 = new Movie("The Incredibles", 2004, "Animation", 97);
+		Movie movie4 = new Movie("Toy Story", 1995, "Animation", 100);
+		Movie movie5 = new Movie("Venom", 2018, "Action and Adventure", 29);
+		Movie movie6 = new Movie("Ratatouille", 2007, "Animation", 96);
+		
+		System.out.println(movie1.getInfo());
+		System.out.println(movie2.getInfo());
+		System.out.println(movie3.getInfo());
+		System.out.println(movie4.getInfo());
+		System.out.println(movie5.getInfo());
+		System.out.println(movie6.getInfo());
+
+	}
+
+}

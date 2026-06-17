@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class PAssign06 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter max number of multiples: ");
+		int maxNum = input.nextInt();
+		int num = 5;
+		
+		for(int i = 1; i <= maxNum; i++) {
+			for(int j = 1; j <= i; j++) {
+				System.out.printf("%d ", num);
+				num += 5;
+			}
+			System.out.println();
+		}
+
+	}
+
+}

@@ -1,0 +1,80 @@
+
+public class Movie {
+	
+	private String title;
+	private int releaseYear;
+	private String genre;
+	private double rating;
+	
+	Movie() {
+		title = "Untitled";
+		releaseYear = 2018;
+		genre = "Drama";
+		rating = 0.0;
+	}
+	
+	Movie(String title){
+		setTitle(title);
+		setReleaseYear(2018);
+		setGenre("Drama");
+		setRating(0.0);
+	}
+	
+	Movie(String title, int releaseYear, String genre, double rating){
+		setTitle(title);
+		setReleaseYear(releaseYear);
+		setGenre(genre);
+		setRating(rating);
+	}
+	
+	public String getRatingCategory() {
+		String category;
+		if(rating >= 90) {
+			category = "Excellent"; 
+		} else if(rating >= 80){
+			category = "Above Average";
+		} else if(rating >= 70) {
+			category = "Average";
+		} else if(rating >= 60) {
+			category = "Below Average";
+		} else {
+			category = "Poor";
+		}
+		return category;
+	}
+	
+	public String getInfo() {
+		return String.format("%s, (%d), %s, Rating: %s", title, releaseYear, genre, getRatingCategory());
+	}
+	
+	public void setTitle(String newTitle) {
+		title = newTitle;
+	}
+	
+	public String getTitle() {
+		return title;
+	}
+	public void setReleaseYear(int newReleaseYear) {
+		releaseYear = newReleaseYear;
+	}
+	
+	public int getReleaseYear() {
+		return releaseYear;
+	}
+	
+	public void setGenre(String newGenre) {
+		genre = newGenre;
+	}
+	
+	public String getGenre() {
+		return genre;
+	}
+	
+	public void setRating(double newRating) {
+		rating = newRating;
+	}
+	
+	public double getRating() {
+		return rating;
+	}
+}

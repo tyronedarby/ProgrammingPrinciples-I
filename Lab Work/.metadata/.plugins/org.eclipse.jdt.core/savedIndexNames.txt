@@ -1,0 +1,24 @@
+INDEX VERSION 1.134+/Users/tyronedarby/Documents/ProgrammingPrinciples I/Lab Work/.metadata/.plugins/org.eclipse.jdt.core
+2323869118.index
+4067826494.index
+1865797976.index
+2600984304.index
+2238786472.index
+1800513455.index
+4132254105.index
+1686965394.index
+477657618.index
+1919187909.index
+2733460240.index
+4055498910.index
+3959484006.index
+350746653.index
+1686274598.index
+177278277.index
+90393427.index
+3842319176.index
+1963573212.index
+2624199401.index
+34508618.index
+2461111003.index
+3853951565.index

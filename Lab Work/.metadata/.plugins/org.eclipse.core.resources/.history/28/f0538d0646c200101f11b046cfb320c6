@@ -1,0 +1,11 @@
+
+public class PAssign10 {
+
+	public static void main(String[] args) {
+		Movie movie1 = new Movie("Black Panther", 2018, "Action and Adventure", 90);
+		
+		System.out.println(movie1.getInfo());
+
+	}
+
+}
